@@ -8,6 +8,8 @@ def fib(n):    # write Fibonacci series up to n
     print()
 
 def fib2(n):   # return Fibonacci series up to n
+    print("Mod Name=",__name__)
+    print()
     result = []
     a, b = 0, 1
     while b <= n:
