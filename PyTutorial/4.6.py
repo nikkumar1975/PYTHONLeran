@@ -1,11 +1,11 @@
 def fib(n):
-	"""print a fib series uptil n"""
-	n=n*2
-	a,b=0,1
-	while a<n:
-		print(a,end=' ')
-		a,b=b,a+b
-	print()
+    """print a fib series uptil n"""
+    n = n*2
+    a, b = 0, 1
+    while a < n:
+        print(a, nd=' ')
+        a, b = b, a+b
+    print()
 
 def main():
 	n=int(input("enter a number "))
